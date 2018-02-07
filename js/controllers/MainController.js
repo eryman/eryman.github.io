@@ -51,11 +51,6 @@ app.controller('MainController', ['$scope', function($scope) {
   ];
   $scope.references = [
     {
-      name: 'Nick Ambrosino',
-      position: 'Founder, Owner',
-      organization: 'Music Simply Music',
-      file: 'credentials/ambrosino.jpg',
-    },{
       name: 'Tom Paster',
       position: 'Choir Director',
       organization: 'Northern Highlands Regional High School',
@@ -65,6 +60,11 @@ app.controller('MainController', ['$scope', function($scope) {
       position: 'Principal',
       organization: 'Northern Highlands Regional High School',
       file: 'credentials/occhino.jpg',
+    },{
+      name: 'Nick Ambrosino',
+      position: 'Founder, Owner',
+      organization: 'Music Simply Music',
+      file: 'credentials/ambrosino.jpg',
     },{
       name: 'Ava',
       position: 'Student',
