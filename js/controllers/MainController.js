@@ -15,17 +15,17 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.other = ['RESTful APIs', 'JSON', 'AJAX', 'Sublime Text 3', 'Git', 'Grunt'];
   $scope.experience = [
     {
+      company: 'Self-Employed Piano, Voice, Theory/Composition Teacher',
+      title: 'Teacher',
+      location: 'Long Island, NY',
+      dates: '2013-Present',
+      description: ['Provide private piano lessons for students of all ages from a variety of diverse backgrounds, including adult, early childhood, and special needs students working both independently and for a variety of contracting agencies', 'Prepare students for annual NYSSMA (New York State School Music Association) performance adjudications, one which they typically scored in the 90-100% range', 'Encouraged students to perform, either at annual recitals, nursing home performances, and the occasional open mic night']
+    },{
       company: 'Connetquot Central School District',
       title: 'Permanent Substitute Teacher',
       location: 'Bohemia, NY',
       dates: '2014-Present',
       description: ['Preferred sub for music department throughout district', 'Maintain classroom management procedures and follow lesson plans to create sense of continuity']
-    },{
-      company: 'Music Simply Music',
-      title: 'Piano Facilitator',
-      location: 'Long Island, NY',
-      dates: '2013-Present',
-      description: ['Provide private piano lessons for students of all ages from a variety of diverse backgrounds, including adult, early childhood, and special needs students', 'Prepare students for annual recitals as well as a variety of nursing home performances as part of “Share My Music,” the company’s community outreach program']
     },{
       company: 'Northern Highlands Regional High School',
       title: 'Choir Director, Theory/General Music Teacher, Music Director, Accompanist',
@@ -74,6 +74,10 @@ app.controller('MainController', ['$scope', function($scope) {
   ];
   $scope.certs = [
     {
+      title: 'Texas Educator Certificate (Music EC-12)',
+      state: 'State of Texas',
+      file: 'credentials/cert-tx.pdf'
+    },{
       title: 'Professional Public School Teacher (Music) Certificate',
       state: 'State of New York',
       file: 'credentials/cert-ny.png'
